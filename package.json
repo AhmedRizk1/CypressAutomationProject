@@ -1,0 +1,33 @@
+{
+  "name": "cypressmusalasoft",
+  "version": "1.0.0",
+  "description": "musalasoft task with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+
+    "cy:run": "npx cypress run 'cypress/integration' --reporter mocha-allure-reporter",
+    "cy:run_spec1": "npx cypress run --headed --spec 'cypress/integration/TestCase1.js' --reporter mocha-allure-reporter",
+    "cy:run_spec2": "npx cypress run --headed --spec 'cypress/integration/TestCase2.js' --reporter mocha-allure-reporter",
+    "cy:run_spec3": "npx cypress run --headed --spec 'cypress/integration/TestCase3.js' --reporter mocha-allure-reporter",
+    "cy:run_spec4": "npx cypress run --headed --spec 'cypress/integration/TestCase4.js' --reporter mocha-allure-reporter",
+    "cy:run_browser": "npm run cy:run_spec -- --browser chrome & npm run cy:run_spec -- --browser firefox",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "test:allure": "npm run cy:run && npm run report:allure",
+    "testcase1:allure": "npm run cy:run_spec1 && npm run report:allure",
+    "testcase2:allure": "npm run cy:run_spec2 && npm run report:allure",
+    "testcase3:allure": "npm run cy:run_spec3 && npm run report:allure",
+    "testcase4:allure": "npm run cy:run_spec4 && npm run report:allure"
+
+  },
+  "author": "AhmedRizk",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "allure-commandline": "^2.17.2",
+    "cypress": "^9.6.1",
+    "cypress-file-upload": "^5.0.8",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}

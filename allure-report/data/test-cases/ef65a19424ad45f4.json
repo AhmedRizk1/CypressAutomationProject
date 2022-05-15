@@ -1,0 +1,59 @@
+{
+  "uid" : "ef65a19424ad45f4",
+  "name" : "TestCase4",
+  "fullName" : "Musala Cypress Task.TestCase4",
+  "historyId" : "54cb2cbfee5b5597baa007b9eec713b7",
+  "time" : {
+    "start" : 1652635637914,
+    "stop" : 1652635693212,
+    "duration" : 55298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase4"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "648cf897ca68c3cf",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/careers/\">Careers</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1652632476162,
+        "stop" : 1652632562142,
+        "duration" : 85980
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef65a19424ad45f4.json",
+  "parameterValues" : [ ]
+}

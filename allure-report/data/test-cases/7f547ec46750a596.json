@@ -1,0 +1,103 @@
+{
+  "uid" : "7f547ec46750a596",
+  "name" : "TestCase2",
+  "fullName" : "Musala Cypress Task.TestCase2",
+  "historyId" : "82b9f33974aaa086e354213d225130e6",
+  "time" : {
+    "start" : 1652635042910,
+    "stop" : 1652635153428,
+    "duration" : 110518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase2"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "184063a2ba208118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652634643935,
+        "stop" : 1652634809299,
+        "duration" : 165364
+      }
+    }, {
+      "uid" : "ab455cb3192ec42e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 60000ms: Expected to find element: `#menu[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-887']> a.main-link`, but never found it.",
+      "time" : {
+        "start" : 1652634446216,
+        "stop" : 1652634591300,
+        "duration" : 145084
+      }
+    }, {
+      "uid" : "7e7e746ae5152728",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/company/\">Company</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1652634066149,
+        "stop" : 1652634211842,
+        "duration" : 145693
+      }
+    }, {
+      "uid" : "8539652421f86147",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/company/\">Company</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1652633093706,
+        "stop" : 1652633238341,
+        "duration" : 144635
+      }
+    }, {
+      "uid" : "92b65359a8952b3d",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/careers/\">Careers</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1652632387905,
+        "stop" : 1652632468858,
+        "duration" : 80953
+      }
+    }, {
+      "uid" : "325c2c31d037e1b",
+      "status" : "broken",
+      "statusDetails" : "Timed out after waiting `100000ms` for your remote page to load.\n                \n                Your page did not fire its `load` event within `100000ms`.\n                \n                You can try increasing the `pageLoadTimeout` value in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/CypressAutomationProject/cypress.json` to wait longer.\n                \n                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n                \n                When this `load` event occurs, Cypress will continue running commands.",
+      "time" : {
+        "start" : 1652632279283,
+        "stop" : 1652632379616,
+        "duration" : 100333
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f547ec46750a596.json",
+  "parameterValues" : [ ]
+}

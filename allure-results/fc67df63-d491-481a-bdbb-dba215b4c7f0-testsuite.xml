@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652633093705' stop='1652633238458'>
+    <name>Musala Cypress Task</name>
+    <title>Musala Cypress Task</title>
+    <test-cases>
+        <test-case start='1652633093706' status='broken' stop='1652633238341'>
+            <name>TestCase2</name>
+            <title>TestCase2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a class="main-link" href="https://www.musala.com/company/">Company&lt;/a>`
+                
+                This element `&lt;a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a class="main-link" href="https://www.musala.com/company/">Company&lt;/a>`
+                
+                This element `&lt;a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at runVisibilityCheck (https://www.musala.com/__cypress/runner/cypress_runner.js:168718:76)
+                    at $Cy.ensureStrictVisibility (https://www.musala.com/__cypress/runner/cypress_runner.js:168734:12)
+                    at runAllChecks (https://www.musala.com/__cypress/runner/cypress_runner.js:154692:14)
+                    at retryActionability (https://www.musala.com/__cypress/runner/cypress_runner.js:154747:16)
+                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)
+                    at Function.Promise.attempt.Promise.try (https://www.musala.com/__cypress/runner/cypress_runner.js:10296:29)
+                    at whenStable (https://www.musala.com/__cypress/runner/cypress_runner.js:173817:65)
+                    at https://www.musala.com/__cypress/runner/cypress_runner.js:173272:14
+                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)
+                    at Promise._settlePromiseFromHandler (https://www.musala.com/__cypress/runner/cypress_runner.js:10957:31)
+                    at Promise._settlePromise (https://www.musala.com/__cypress/runner/cypress_runner.js:11014:18)
+                    at Promise._settlePromise0 (https://www.musala.com/__cypress/runner/cypress_runner.js:11059:10)
+                    at Promise._settlePromises (https://www.musala.com/__cypress/runner/cypress_runner.js:11139:18)
+                    at Promise._fulfill (https://www.musala.com/__cypress/runner/cypress_runner.js:11083:18)
+                    at https://www.musala.com/__cypress/runner/cypress_runner.js:12697:46
+                From Your Spec Code:
+                    at Context.eval (https://www.musala.com/__cypress/tests?p=cypress/integration/TestCase2.js:109:62)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

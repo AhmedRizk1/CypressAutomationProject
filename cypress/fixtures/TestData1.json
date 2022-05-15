@@ -1,0 +1,41 @@
+[
+    {
+        "Name": "Ahmed",
+        "Email": "ahmedrizk",
+        "Mobile": "01147760632",
+        "Subject": "Any Subject",
+        "Message": "Any Message"   
+    },
+    {
+        "Name": "Ahmed",
+        "Email": "ahmedrizk.com",
+        "Mobile": "01147760632",
+        "Subject": "Any Subject",
+        "Message": "Any Message"   
+    },
+    {
+        "Name": "Ahmed",
+        "Email": "ahmed@rizk.",
+        "Mobile": "01147760632",
+        "Subject": "Any Subject",
+        "Message": "Any Message"   
+    },
+    {
+        "Name": "Ahmed",
+        "Email": "ahmed.com@",
+        "Mobile": "01147760632",
+        "Subject": "Any Subject",
+        "Message": "Any Message"   
+    },
+    {
+        "Name": "Ahmed",
+        "Email": "@ahmed.com",
+        "Mobile": "01147760632",
+        "Subject": "Any Subject",
+        "Message": "Any Message"   
+    }
+
+]
+
+
+

@@ -1,0 +1,48 @@
+{
+  "uid" : "184063a2ba208118",
+  "name" : "TestCase2",
+  "fullName" : "Musala Cypress Task.TestCase2",
+  "historyId" : "82b9f33974aaa086e354213d225130e6",
+  "time" : {
+    "start" : 1652634643935,
+    "stop" : 1652634809299,
+    "duration" : 165364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase2"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "184063a2ba208118.json",
+  "parameterValues" : [ ]
+}

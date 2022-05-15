@@ -1,0 +1,50 @@
+{
+  "uid" : "648cf897ca68c3cf",
+  "name" : "TestCase4",
+  "fullName" : "Musala Cypress Task.TestCase4",
+  "historyId" : "54cb2cbfee5b5597baa007b9eec713b7",
+  "time" : {
+    "start" : 1652632476162,
+    "stop" : 1652632562142,
+    "duration" : 85980
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/careers/\">Careers</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+  "statusTrace" : "CypressError: Timed out retrying after 60050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a class=\"main-link\" href=\"https://www.musala.com/careers/\">Careers</a>`\n                \n                This element `<a.main-link>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with\n                    at runVisibilityCheck (https://www.musala.com/__cypress/runner/cypress_runner.js:168718:76)\n                    at $Cy.ensureStrictVisibility (https://www.musala.com/__cypress/runner/cypress_runner.js:168734:12)\n                    at runAllChecks (https://www.musala.com/__cypress/runner/cypress_runner.js:154692:14)\n                    at retryActionability (https://www.musala.com/__cypress/runner/cypress_runner.js:154747:16)\n                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)\n                    at Function.Promise.attempt.Promise.try (https://www.musala.com/__cypress/runner/cypress_runner.js:10296:29)\n                    at whenStable (https://www.musala.com/__cypress/runner/cypress_runner.js:173817:65)\n                    at https://www.musala.com/__cypress/runner/cypress_runner.js:173272:14\n                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)\n                    at Promise._settlePromiseFromHandler (https://www.musala.com/__cypress/runner/cypress_runner.js:10957:31)\n                    at Promise._settlePromise (https://www.musala.com/__cypress/runner/cypress_runner.js:11014:18)\n                    at Promise._settlePromise0 (https://www.musala.com/__cypress/runner/cypress_runner.js:11059:10)\n                    at Promise._settlePromises (https://www.musala.com/__cypress/runner/cypress_runner.js:11139:18)\n                    at Promise._fulfill (https://www.musala.com/__cypress/runner/cypress_runner.js:11083:18)\n                    at https://www.musala.com/__cypress/runner/cypress_runner.js:12697:46\n                From Your Spec Code:\n                    at Context.eval (https://www.musala.com/__cypress/tests?p=cypress/integration/TestCase4.js:142:112)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase4"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "648cf897ca68c3cf.json",
+  "parameterValues" : [ ]
+}

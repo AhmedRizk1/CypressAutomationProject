@@ -1,0 +1,50 @@
+{
+  "uid" : "ab455cb3192ec42e",
+  "name" : "TestCase2",
+  "fullName" : "Musala Cypress Task.TestCase2",
+  "historyId" : "82b9f33974aaa086e354213d225130e6",
+  "time" : {
+    "start" : 1652634446216,
+    "stop" : 1652634591300,
+    "duration" : 145084
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 60000ms: Expected to find element: `#menu[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-887']> a.main-link`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 60000ms: Expected to find element: `#menu[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-887']> a.main-link`, but never found it.\n                    at Context.eval (https://www.musala.com/__cypress/tests?p=cypress/integration/TestCase2.js:109:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase2"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab455cb3192ec42e.json",
+  "parameterValues" : [ ]
+}

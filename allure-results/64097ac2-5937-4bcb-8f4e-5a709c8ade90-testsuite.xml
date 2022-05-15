@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652635432777' stop='1652635545018'>
+    <name>Musala Cypress Task</name>
+    <title>Musala Cypress Task</title>
+    <test-cases>
+        <test-case start='1652635432778' status='passed' stop='1652635545018'>
+            <name>TestCase3</name>
+            <title>TestCase3</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

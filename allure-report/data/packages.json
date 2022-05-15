@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Musala Cypress Task",
+    "children" : [ {
+      "name" : "TestCase1",
+      "uid" : "e2395cb6b6fb5c8b",
+      "parentUid" : "8fd0b34ddf023c51b76bbc8e9ac07eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652632843964,
+        "stop" : 1652632954079,
+        "duration" : 110115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCase2",
+      "uid" : "7f547ec46750a596",
+      "parentUid" : "8fd0b34ddf023c51b76bbc8e9ac07eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652635042910,
+        "stop" : 1652635153428,
+        "duration" : 110518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCase3",
+      "uid" : "339bc5cf971803fd",
+      "parentUid" : "8fd0b34ddf023c51b76bbc8e9ac07eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652635432778,
+        "stop" : 1652635545018,
+        "duration" : 112240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCase4",
+      "uid" : "ef65a19424ad45f4",
+      "parentUid" : "8fd0b34ddf023c51b76bbc8e9ac07eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652635637914,
+        "stop" : 1652635693212,
+        "duration" : 55298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8fd0b34ddf023c51b76bbc8e9ac07eb7"
+  } ]
+}

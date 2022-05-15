@@ -1,0 +1,50 @@
+{
+  "uid" : "325c2c31d037e1b",
+  "name" : "TestCase2",
+  "fullName" : "Musala Cypress Task.TestCase2",
+  "historyId" : "82b9f33974aaa086e354213d225130e6",
+  "time" : {
+    "start" : 1652632279283,
+    "stop" : 1652632379616,
+    "duration" : 100333
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timed out after waiting `100000ms` for your remote page to load.\n                \n                Your page did not fire its `load` event within `100000ms`.\n                \n                You can try increasing the `pageLoadTimeout` value in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/CypressAutomationProject/cypress.json` to wait longer.\n                \n                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n                \n                When this `load` event occurs, Cypress will continue running commands.",
+  "statusTrace" : "CypressError: Timed out after waiting `100000ms` for your remote page to load.\n                \n                Your page did not fire its `load` event within `100000ms`.\n                \n                You can try increasing the `pageLoadTimeout` value in `/Users/ahmedrizk/Desktop/Cypress/CypressProject/CypressAutomationProject/cypress.json` to wait longer.\n                \n                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n                \n                When this `load` event occurs, Cypress will continue running commands.\n                    at timedOutWaitingForPageLoad (https://www.musala.com/__cypress/runner/cypress_runner.js:162418:74)\n                    at https://www.musala.com/__cypress/runner/cypress_runner.js:163637:16\n                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)\n                    at https://www.musala.com/__cypress/runner/cypress_runner.js:8144:41\n                    at tryCatcher (https://www.musala.com/__cypress/runner/cypress_runner.js:13022:23)\n                    at Promise._settlePromiseFromHandler (https://www.musala.com/__cypress/runner/cypress_runner.js:10957:31)\n                    at Promise._settlePromise (https://www.musala.com/__cypress/runner/cypress_runner.js:11014:18)\n                    at Promise._settlePromise0 (https://www.musala.com/__cypress/runner/cypress_runner.js:11059:10)\n                    at Promise._settlePromises (https://www.musala.com/__cypress/runner/cypress_runner.js:11135:18)\n                    at _drainQueueStep (https://www.musala.com/__cypress/runner/cypress_runner.js:7729:12)\n                    at _drainQueue (https://www.musala.com/__cypress/runner/cypress_runner.js:7722:9)\n                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.musala.com/__cypress/runner/cypress_runner.js:7738:5)\n                    at Async.drainQueues (https://www.musala.com/__cypress/runner/cypress_runner.js:7608:14)\n                From Your Spec Code:\n                    at Context.eval (https://www.musala.com/__cypress/tests?p=cypress/integration/TestCase2.js:107:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testClass",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase2"
+  }, {
+    "name" : "package",
+    "value" : "Musala Cypress Task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "325c2c31d037e1b.json",
+  "parameterValues" : [ ]
+}

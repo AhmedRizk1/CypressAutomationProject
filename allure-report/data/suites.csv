@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun May 15 19:27:17 EET 2022","Sun May 15 19:28:13 EET 2022","55298","","Musala Cypress Task","","Musala Cypress Task","TestCase4","TestCase4",""
+"passed","Sun May 15 19:17:22 EET 2022","Sun May 15 19:19:13 EET 2022","110518","","Musala Cypress Task","","Musala Cypress Task","TestCase2","TestCase2",""
+"passed","Sun May 15 18:40:43 EET 2022","Sun May 15 18:42:34 EET 2022","110115","","Musala Cypress Task","","Musala Cypress Task","TestCase1","TestCase1",""
+"passed","Sun May 15 19:23:52 EET 2022","Sun May 15 19:25:45 EET 2022","112240","","Musala Cypress Task","","Musala Cypress Task","TestCase3","TestCase3",""

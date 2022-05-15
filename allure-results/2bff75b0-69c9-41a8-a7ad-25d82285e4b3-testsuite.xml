@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652634446216' stop='1652634591482'>
+    <name>Musala Cypress Task</name>
+    <title>Musala Cypress Task</title>
+    <test-cases>
+        <test-case start='1652634446216' status='failed' stop='1652634591300'>
+            <name>TestCase2</name>
+            <title>TestCase2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 60000ms: Expected to find element: `#menu[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-887']> a.main-link`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 60000ms: Expected to find element: `#menu[class='menu-item menu-item-type-post_type menu-item-object-page menu-item-887']> a.main-link`, but never found it.
+                    at Context.eval (https://www.musala.com/__cypress/tests?p=cypress/integration/TestCase2.js:109:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

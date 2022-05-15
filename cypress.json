@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.musala.com/",
+
+    "pageLoadTimeout":100000,
+    "defaultCommandTimeout":60000
+
+}
